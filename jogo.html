@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="cssjogo.css">
+</head>
+<body>
+    <h1>JOGO DA ADIVINHAÇÃO</h1>
+    <h2>Bem vindo ao jogo da adivinhação, nesse jogo você terá que número eu estou pensando,
+        o número vai de 1 a 100(somente números inteiros), eu te darei dicas se o número chutado é maior ou menor que
+        eu estou pensando. Você tem 4 tentativas. Boa sorte!
+    </h2>
+    <label for="chute">Seu número</label>
+    <input type="number" id="chute">
+    
+    <button onclick="botao()">Chutar</button>
+
+    <p id="tentativaerrada"></p>
+    <p id="tentativacerta"></p>
+    <p id="resultado"></p>
+    <p id="dicas"></p>
+    <p id="tentativasrestantes"></p>
+    <p id="tentativasesgotadas"></p>
+    <p id="parabens"></p>
+    <p id="mensagemdeerro"></p>
+
+    <script src="jogojs.js"></script>
+
+</body>
+</html>
